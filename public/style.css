@@ -1,0 +1,137 @@
+body {
+    top:0px;
+    margin:0px;
+    padding:0px;
+    position: relative;
+    background-color: white ;
+    display: inline-block;
+    }
+   @media only screen and (min-width: 300px) {
+
+#container {
+    position:fixed;
+    width:100%;
+    height:100px;
+    top:0px;
+    left:0px;
+    border:40px groove green;
+    border-left:none;
+    border-bottom:none;
+    background-image: linear-gradient(red, yellow, gold, black, brown);
+    
+    
+}
+#list {
+    width:50px;
+    height:7px;
+    margin:5px;
+    background-color: black;
+    border:none;
+    display:block;
+}
+#logo1 {
+    position:absolute;
+    width:50px;
+    height:50px;
+    border-radius:100%;
+    right:0px;
+    top:0px;
+    
+}
+#list_item {
+    position:absolute;
+    position: relative;
+    display:none;
+    width:auto;
+    height:300px;   
+    background-color: black;
+    top:0px;
+    border: 5px groove red;
+    border-bottom:10px groove pink;
+    overflow-x: auto;
+    margin:0px;
+    
+}
+a {
+    display:block;
+    text-decoration:none;
+    text-transform: capitalize;
+    line-height:50px;
+    padding: 0 15px;
+    font-size:25px;
+    color:white;
+    font-style: bold;
+}
+#menu:hover > #list_item {
+    display:block;
+}
+a:hover {
+    color:white;
+    background-color: silver;
+    text-shadow: 2px 1px red;
+}
+#name {
+    text-transform: uppercase;
+    font-size:15px;
+    font-style: italic;
+    color: gold;
+    text-shadow: 2px 1px grey;
+}
+#menu {
+    position:absolute;
+    background-color: yellow;
+    border: 5px groove pink;
+}
+#content {
+    cursor:pointer;
+    margin-top:140px;
+    width:100%;
+    height:200px;
+    overflow-x:auto;
+    top:0px;
+    background-color:darkgrey;
+    color: white;
+    font-style: bold;
+    font-size:20px;
+    border-bottom: 2px groove green;
+    text-shadow:2px 1px black;
+    
+}
+#footer {
+    position:absolut;
+    bottom:0px;
+    background-color:silver;
+}
+video {
+    background-color: black;
+}
+#noa {
+    color:green;
+    display:block;
+    text-decoration:2px green;
+}
+#fashionRead {
+    font-style: bold;
+    font-size:20px;
+    color: lightgrey;
+    text-shadow: 2px 1px green;
+    
+}
+ input[type=email] {
+     font-size:20px;
+     padding:20px;
+ }
+ input[type=submit] {
+     border:none;
+     font-size:20px;
+     background-color:green;
+     padding:20px;
+     
+ }
+ #abn {
+     font-style:italic;
+     width:100%;
+     background-color: violet;
+     
+ }
+}
